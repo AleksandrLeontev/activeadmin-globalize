@@ -15,13 +15,13 @@ Gem::Specification.new do |s|
 
   s.files = Dir['{app,config,db,lib}/**/*'] + %w(MIT-LICENSE README.md)
 
-  s.add_dependency 'activeadmin', '>= 1.0'
+  # s.add_dependency 'activeadmin', '>= 1.0'
   # Try to support rails from 3.2 up to 4.2.x
-  s.add_dependency 'globalize', '>= 3.1.0'
+  # s.add_dependency 'globalize', '>= 3.1.0'
 
   # development dependencies
-  s.add_development_dependency 'bundler', '>= 1.6.1'
-  s.add_development_dependency 'rake'
+  # s.add_development_dependency 'bundler', '>= 1.6.1'
+  # s.add_development_dependency 'rake'
   # Other development dependencies moved into Gemfile
 
 end
